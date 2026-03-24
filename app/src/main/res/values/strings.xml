@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Formulaire</string>
+    <string name="navig">Navigation</string>
+    <string name="nom">Nom et Prénom</string>
+    <string name="nom1">ffffff ffffff</string>
+    <string name="email">Email</string>
+    <string name="email1">ahmed@gmail.com</string>
+    <string name="telephone">N° Téléphone</string>
+    <string name="telephone1">+212 612345678</string>
+    <string name="adr">Adresse</string>
+    <string name="adr1">24 gueliz Marrakech</string>
+    <string name="ville">Ville</string>
+    <string name="btn">Envoyer</string>
+    <string name="verifi">Vérification</string>
+    <string name="btnretour">Retour</string>
+
+</resources>
