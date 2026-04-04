@@ -54,9 +54,17 @@ L'application est divisée en deux étapes fluides pour garantir une expérience
 * Validation des données : 
 <img width="400" height="500" alt="screen1_case" src="https://github.com/user-attachments/assets/37259b6f-2781-458b-967d-aa2c0dc3ce7b" />
 
+* Email invalide
+<img width="400" height="500" alt="email_invalide" src="https://github.com/user-attachments/assets/97790ad9-b18c-466e-ad5b-064561bf00fa" />
+
 2. Écran Récapitulatif (MainActivity2)
 * Une fois les données validées, elles sont transmises via un Intent vers cet écran.
 <img width="400" height="500" alt="screen2" src="https://github.com/user-attachments/assets/c4e5e377-934b-4009-bac9-9c1cc3da4cda" />
+
+* Partager les informutions 
+<img width="400" height="500" alt="partage" src="https://github.com/user-attachments/assets/abb5c247-ae16-44e7-8dbd-6a56e67554e8" />
+
+<img width="400" height="500" alt="partage2" src="https://github.com/user-attachments/assets/8b143349-b1f7-42a2-bdaf-1665346ae981" />
 
 ## Une vidéo démonstarative est disponible dans la section `Démonstration`
 
