@@ -13,5 +13,5 @@
     <string name="btn">Envoyer</string>
     <string name="verifi">Vérification</string>
     <string name="btnretour">Retour</string>
-
+    <string name="btnpartager">Partger</string>
 </resources>

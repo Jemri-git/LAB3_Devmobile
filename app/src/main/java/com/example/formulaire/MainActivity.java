@@ -2,6 +2,7 @@ package com.example.formulaire;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Patterns;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -56,6 +57,11 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
 
+
+            if (!Patterns.EMAIL_ADDRESS.matcher(eemail).matches()) {
+                Toast.makeText(this, "Email invalide.", Toast.LENGTH_SHORT).show();
+                return;
+            }
             Intent intent = new Intent(MainActivity.this, MainActivity2.class);
             intent.putExtra("nom",enom);
             intent.putExtra("email",eemail);
@@ -66,5 +72,25 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        reinitialiserFormulaire();
+    }
+    // Réiniltialiser le formulaire
+    private void reinitialiserFormulaire() {
+        nom.setText("");
+        email.setText("");
+        tel.setText("");
+        adresse.setText("");
+
+        // Remet le Spinner sur le premier élément de la liste (index 0)
+        if (ville != null && ville.getAdapter() != null) {
+            ville.setSelection(0);
+        }
+
+        // Remettre le focus sur le premier champ
+        nom.requestFocus();
     }
 }
